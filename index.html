@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebRTC Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main_div">
+        <div id="main_div_1">
+            <h1>FP Video</h1>
+            <h1>RTC Video</h1>
+        </div>
+        <div id="main_div_2">
+            <div>
+                <video id="v1" autoplay width="400"></video>
+                <h3 id="v1Info"></h3>
+            </div>
+            <div>
+                <video id="v2" autoplay width="400"></video>
+                <h3 id="v2Info"></h3>
+            </div>
+        </div>
+        <button onclick="start()">Start</button>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

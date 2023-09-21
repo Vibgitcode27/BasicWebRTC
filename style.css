@@ -1,0 +1,49 @@
+body{
+    background-color: #00031f;
+    color: aliceblue;
+}
+
+#main_div
+{
+    display: flex;
+    margin-top: 10px;
+    height: 85vh;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+#main_div_1 > h1
+{
+    margin-top: 180px;
+    margin-left: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+#main_div_2
+{
+    /* display: flex; */
+    margin-left: 60vh;
+}
+
+#v1
+{
+    border-radius: 40px;
+}
+
+#v2
+{
+    border-radius: 40px;
+}
+
+button
+{
+    height: 40px;
+    width: 250px;
+    position: relative;
+    top : 300px;
+    left: 150px;
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: #00031f;
+    color: aliceblue;
+}
